@@ -155,6 +155,7 @@ class _GameBoardState extends State<GameBoard> {
     }
   }
 
+  // createNewPiece
   void createNewPiece() {
     // create a random object to generate random tetromino type
     Random rand = Random();
