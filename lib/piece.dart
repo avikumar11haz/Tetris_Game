@@ -19,6 +19,7 @@ class Piece {
   }
 
   // generate the integers
+  // initializePiece
   void initializePiece() {
     switch (type) {
       case Tetromino.L:
