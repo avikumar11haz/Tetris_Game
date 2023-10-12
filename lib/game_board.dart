@@ -39,6 +39,7 @@ class _GameBoardState extends State<GameBoard> {
     startGame();
   }
 
+  // startGame
   void startGame() {
     currentPiece.initializePiece();
 
