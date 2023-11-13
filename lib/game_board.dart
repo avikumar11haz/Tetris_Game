@@ -28,7 +28,7 @@ class _GameBoardState extends State<GameBoard> {
   //current score
   int currentScore = 0;
 
-  // game over status
+  // game over statues
   bool gameOver = false;
 
   @override
