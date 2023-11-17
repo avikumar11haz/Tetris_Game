@@ -35,7 +35,7 @@ class _GameBoardState extends State<GameBoard> {
   void initState() {
     super.initState();
 
-    // start game when app starts
+    // start game when the app starts
     startGame();
   }
 
