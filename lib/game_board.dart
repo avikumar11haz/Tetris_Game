@@ -22,7 +22,7 @@ class GameBoard extends StatefulWidget {
 }
 
 class _GameBoardState extends State<GameBoard> {
-  // current tetris piece
+  // current tetris pieces
   Piece currentPiece = Piece(type: Tetromino.L);
 
   //current score
@@ -35,7 +35,7 @@ class _GameBoardState extends State<GameBoard> {
   void initState() {
     super.initState();
 
-    // start game when the app starts
+    // start game when app starts
     startGame();
   }
 
