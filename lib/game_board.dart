@@ -48,7 +48,7 @@ class _GameBoardState extends State<GameBoard> {
     gameLoop(frameRate);
   }
 
-  // game loop
+  // game loops
   void gameLoop(Duration frameRate) {
     Timer.periodic(frameRate, (timer) {
       setState(() {
