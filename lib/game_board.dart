@@ -48,7 +48,7 @@ class _GameBoardState extends State<GameBoard> {
     gameLoop(frameRate);
   }
 
-  // game loops
+  // game loop
   void gameLoop(Duration frameRate) {
     Timer.periodic(frameRate, (timer) {
       setState(() {
@@ -70,7 +70,7 @@ class _GameBoardState extends State<GameBoard> {
     });
   }
 
-  //game over message
+  //game over messages
   void showGameOverDialog() {
     showDialog(
         context: context,
