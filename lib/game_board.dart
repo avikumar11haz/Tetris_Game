@@ -70,7 +70,7 @@ class _GameBoardState extends State<GameBoard> {
     });
   }
 
-  //game over messages
+  //game over message
   void showGameOverDialog() {
     showDialog(
         context: context,

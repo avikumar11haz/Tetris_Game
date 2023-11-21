@@ -1,4 +1,4 @@
-// grid dimensions
+// grid dimensionss
 import 'package:flutter/material.dart';
 
 int rowLength = 10;
